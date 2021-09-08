@@ -1,0 +1,9 @@
+@media (max-width: 320px) {
+  .footer__links {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 64px;
+  }
+}

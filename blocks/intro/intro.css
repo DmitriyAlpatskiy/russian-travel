@@ -1,0 +1,37 @@
+.intro {
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 288px;
+  }
+}

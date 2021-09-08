@@ -1,0 +1,36 @@
+.lead {
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 984px;
+    width: 100%;
+  }
+
+@media (max-width: 1024px) {
+  .lead {
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 928px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    background-color: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 768px;
+    width: 100%;
+  }
+}
