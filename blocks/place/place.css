@@ -1,8 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: minmax(76px, 152px) 460px;
-  column-gap: 40px;
+  grid-template-columns: 50% 50%;
   row-gap: 48px;
   margin-bottom: 80px;
   justify-content: center;
@@ -10,34 +8,18 @@
 
 @media (max-width: 1024px) {
   .place {
-    display: grid;
-    grid-template-columns: 440px 456px;
-    grid-template-rows: minmax(76px, 152px) 440px;
-    column-gap: 32px;
-    row-gap: 48px;
-    margin-bottom: 80px;
-    justify-content: center;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    display: grid;
-    grid-template-columns: 340px 352px;
-    /* grid-template-rows: minmax(46px, 92px) 441px; */
-    column-gap: 28px;
-    row-gap: 48px;
-    margin-bottom: 80px;
-    justify-content: center;
   }
 }
 
 @media (max-width: 320px) {
   .place {
-    display: grid;
     grid-template-columns: 320px;
-    grid-template-rows: minmax(32px, 35px);
-    row-gap: 32px;
     margin-bottom: 50px;
+    row-gap: 32px;
   }
 }

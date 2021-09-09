@@ -1,35 +1,27 @@
 .page {
-    max-width: 1280px;
-    min-width: 1024px;
-    background-color: #2a2c2f;
-    margin: 0 auto;
-  }
+  max-width: 1280px;
+  min-width: 1024px;
+  background-color: #2a2c2f;
+  margin: 0 auto;
+}
 
-  @media (max-width: 1024px) {
-    .page {
-      max-width: 1024px;
-      min-width: 768px;
-      background-color: #2a2c2f;
-      margin: 0 auto;
-    }
+@media (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    min-width: 768px;
   }
+}
 
-  @media (max-width: 768px) {
-    .page {
-      max-width: 768px;
-      min-width: 320px;
-      background-color: #2a2c2f;
-      margin: 0 auto;
-    }
+@media (max-width: 768px) {
+  .page {
+    max-width: 768px;
+    min-width: 320px;
   }
-  
-  @media (max-width: 320px) {
-    .page {
-      max-width: 320px;
-      min-width: 0;
-      background-color: #2a2c2f;
-      margin: 0 auto;
-    }
+}
+
+@media (max-width: 320px) {
+  .page {
+    max-width: 320px;
+    min-width: 0;
   }
-
-
+}
