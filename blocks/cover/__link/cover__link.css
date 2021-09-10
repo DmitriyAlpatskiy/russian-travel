@@ -1,12 +1,14 @@
 .cover__link {
     display: flex;
-    width: 100%;
+    max-width: 1184px;
     height: 100%;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
 }
 
-.cover__link:hover .cover__background {
-    opacity: 0.8;
-    color: #2a2c2f;
-    cursor: pointer;
+@media (max-width: 1024px) {
+    .cover__link {
+      max-width: 1024px;
+    }
   }
-
