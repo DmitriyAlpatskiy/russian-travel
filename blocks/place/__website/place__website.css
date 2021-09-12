@@ -1,7 +1,6 @@
 .place__website {
   margin: 0;
   padding: 0;
-  list-style-type: none;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -9,12 +8,18 @@
   align-self: flex-end;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .place__website {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    max-width: 288px;
+  }
+}
+
+@media (max-width: 510px) {
+  .place__website {
     padding-left: 16px;
   }
 }
