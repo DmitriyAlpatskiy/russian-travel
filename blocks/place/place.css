@@ -35,8 +35,17 @@
 
 @media (max-width: 510px) {
   .place {
-    grid-template-columns: 100%;
     margin-bottom: 55px;
     row-gap: 32px;
+    grid-template-columns: 90%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    margin-bottom: 55px;
+    row-gap: 32px;
+    grid-template-columns: 100%;
   }
 }
