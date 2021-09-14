@@ -11,5 +11,5 @@
 * Figma
 * Оптимизация изображений
 
-Ссылка на проект https://dmitriyalpatskiy.github.io/russian-travel/ 
+Ссылка на проект https://dmitriyalpatskiy.github.io/russian-travel/
 
